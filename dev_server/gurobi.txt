@@ -1,2 +1,4 @@
-ssh -L8008:apps.gurobi.com:80 dsrg@freyja.cs.cofc.edu
+
+
+ssh -L 8008:apps.gurobi.com:80 pander14@users.csc.calpoly.edu
 grbgetkey --verbose --port=8008 --server=127.0.0.1 --http b0e37c98-8563-11e9-bba7-02e454ff9c50
